@@ -14,4 +14,5 @@ i love pyjails
 |how r u|ImaginaryCTF Round 12|todo|
 |[fickle pickles](./chals/fickle%20pickles)|ImaginaryCTF Round 13|todo|
 |[Low Security Jail](./chals/Low%20Security%20Jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
+|[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
 |[Just Another Pickle Jail](./chals/Just%20Another%20Pickle%20Jail)|Sekai CTF 2023|todo|
