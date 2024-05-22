@@ -13,3 +13,4 @@ i love pyjails
 |[tax evasion](./chals/tax%20evasion)|ImaginaryCTF Round 11|python audit hook function overwrite|
 |how r u|ImaginaryCTF Round 12|todo|
 |[fickle pickles](./chals/fickle%20pickles)|ImaginaryCTF Round 13|todo|
+|[Just Another Pickle Jail](./chals/Just%20Another%20Pickle%20Jail)|Sekai CTF 2023|todo|
