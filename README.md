@@ -21,3 +21,4 @@ i love pyjails
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
 |[Just Another Pickle Jail](./chals/just-another-pickle-jail)|Sekai CTF 2023|todo|
+|[introspection](./chals/introspection)|angstromCTF 2024|find discrepancies between pickle c impl and python impl (python2)|
