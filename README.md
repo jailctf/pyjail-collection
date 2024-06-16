@@ -8,7 +8,6 @@ i love pyjails
 
 |title|source|description/tldr|
 |-|-|-|
-|Completely new challenge|ImaginaryCTF Round 46|todo|
 |[minijail](./chals/minijail)|ImaginaryCTF Round 9|eval with only the print builtin in 37 bytes|
 |[tax evasion](./chals/tax-evasion)|ImaginaryCTF Round 11|python audit hook function overwrite|
 |how r u|ImaginaryCTF Round 12|todo|
@@ -20,6 +19,7 @@ i love pyjails
 |[pickle-madness](./chals/pickle-madness)|ImaginaryCTF Round 43|bash jail disguised as pickle jail|
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
+|Completely new challenge|ImaginaryCTF Round 47|todo|
 |[pyquinejailgolf](./chals/pyquinejailgolf)|amateursCTF 2024|todo|
 |[Just Another Pickle Jail](./chals/just-another-pickle-jail)|Sekai CTF 2023|todo|
 |[introspection](./chals/introspection)|angstromCTF 2024|find discrepancies between pickle c impl and python impl (python2)|
