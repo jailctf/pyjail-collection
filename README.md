@@ -21,6 +21,7 @@ i love pyjails
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
 |Completely new challenge|ImaginaryCTF Round 47|todo|
 |[pyquinejailgolf](./chals/pyquinejailgolf)|amateursCTF 2024|todo|
+|[pyquinejailgolf 2](./chals/pyquinejailgolf-2)|amateursCTF 2024|todo|
 |[Just Another Pickle Jail](./chals/just-another-pickle-jail)|Sekai CTF 2023|todo|
 |[introspection](./chals/introspection)|angstromCTF 2024|find discrepancies between pickle c impl and python impl (python2)|
 |[llama jail](./chals/llama-jail)|vsCTF 2024|bypass ast visitor when ast.iter_child_nodes|
