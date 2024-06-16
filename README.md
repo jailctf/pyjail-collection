@@ -20,6 +20,7 @@ i love pyjails
 |[pickle-madness](./chals/pickle-madness)|ImaginaryCTF Round 43|bash jail disguised as pickle jail|
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
+|[pyquinejailgolf](./chals/pyquinejailgolf)|amateursCTF 2024|todo|
 |[Just Another Pickle Jail](./chals/just-another-pickle-jail)|Sekai CTF 2023|todo|
 |[introspection](./chals/introspection)|angstromCTF 2024|find discrepancies between pickle c impl and python impl (python2)|
 |[llama jail](./chals/llama-jail)|vsCTF 2024|bypass ast visitor when ast.iter_child_nodes|
