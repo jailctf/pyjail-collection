@@ -2,7 +2,7 @@
 
 ## challenge
 
-```
+```py
 #!/usr/local/bin/python3
 
 import time
