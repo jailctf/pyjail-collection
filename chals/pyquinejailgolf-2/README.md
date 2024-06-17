@@ -62,19 +62,19 @@ except:pass""")
 
 i recommend taking a look at [pyquinejailgolf 1](../pyquinejailgolf) before taking a look at this
 
-let's take a look at what builtins we have access to for this one
+let's take a look at what builtins we have access to for this one by using `dir()` in an interactive session
 
 ```py
 ['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EncodingWarning', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'ZeroDivisionError']
 ```
 
-we have access to all of the error classes. with these, we can get error objects as well. these error objects have the `args` attribute which contain strings!
+we have access to all of the error classes since they dont start with lowercase. with these, we can get error objects as well. these error objects have the `args` attribute which contain strings!
 
-so, we can get some strings.
+so, we can get some strings, but this is not enough. so,
 
 ![yayayay](https://github.com/quasar098/pyjail-collection/assets/70716985/cd38798d-800f-47c3-a5c2-137b561121f5)
 
-but also, python 3.10 added the name and obj attributes to python objects, so we can get arbitrary attributes using format strings by having them raise an attribute error from the format string and then getting the object as shown below
+python 3.10 added the name and obj attributes to python objects, so we can get arbitrary attributes using format strings by having them raise an attribute error from the format string and then getting the object as shown below
 
 ```py
 try:
