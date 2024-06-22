@@ -20,6 +20,7 @@ i love pyjails
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
 |Completely new challenge|ImaginaryCTF Round 47|todo|
+|[Get and set](./chals/get-and-set)|ImaginaryCTF 2023|pydash (almost) arbitrary get and set|
 |[pyquinejailgolf](./chals/pyquinejailgolf)|amateursCTF 2024|todo|
 |[pyquinejailgolf 2](./chals/pyquinejailgolf-2)|amateursCTF 2024|todo|
 |[Just Another Pickle Jail](./chals/just-another-pickle-jail)|Sekai CTF 2023|todo|
