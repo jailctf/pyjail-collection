@@ -16,6 +16,8 @@ i love pyjails
 |[Stackless Jail](./chals/stackless-jail)|ImaginaryCTF Round 23|read sys environ with only stack size 1 from dis.code\_info|
 |[Nameless Jail](./chals/nameless-jail)|ImaginaryCTF Round 24|use dictionary instead of multiple variables|
 |[\_](./chals/_)|ImaginaryCTF Round 25|use `*` for unpacking a file object|
+|[dont-repeat-yourself](./chals/dont-repeat-yourself)|ImaginaryCTF Round 28|only use each char once|
+|[decorated](./chals/decorated)|ImaginaryCTF Round 33|use decorators on functions|
 |[pickle-madness](./chals/pickle-madness)|ImaginaryCTF Round 43|bash jail disguised as pickle jail|
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
