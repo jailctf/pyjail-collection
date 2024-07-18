@@ -2,6 +2,8 @@
 
 ## challenge
 
+There's many software design principles you should follow in order to write clean code. In this challenge, please make sure you DRY, thank you and good luck!
+
 dry.py
 ```py
 #!/usr/bin/env python3
