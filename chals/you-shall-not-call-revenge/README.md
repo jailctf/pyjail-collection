@@ -96,7 +96,7 @@ then, we can store the `__main__.SecureUnpickler` class in the memo for later us
 
 next, we can overwrite functions of SecureUnpickler because then the pickle implementation in pickle.py (i guess it would be _pickle.c but same thing pretty much) will call those functions. this is how we can end up calling functions
 
-since eval, exec, and breakpoint are blocked (and there is no `exit` function cheese), we need to get the return value of a function like `getattr(__main__.__main__, 'eval')` to be able to get RCE
+since eval, exec, and breakpoint are blocked (and there is no `license` function cheese), we need to get the return value of a function like `getattr(__main__.__main__, 'eval')` to be able to get RCE
 
 notably, it is hard to get the return value of functions. i tried exploiting some of the obvious opcodes like `SHORT_BINSTRING`, since it calls `_decode_string`. by overwriting the _decode_string of SecureUnpickler, we could just call any function and get the return value, right?
 
