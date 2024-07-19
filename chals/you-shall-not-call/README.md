@@ -52,9 +52,23 @@ see [you-shall-not-call-revenge](../you-shall-not-call-revenge)
 
 ## unintended solution
 
-we can abuse the fact that there is a file named `flag.txt` in a known location and it just requires a file read. although `help` was blocked, we can abuse `exit` because it is a `_Printer` object or something like that
+we can abuse the fact that there is a file named `flag.txt` in a known location and it just requires a file read. although `help` was blocked, we can abuse `license` because it is a `_Printer` object
 
 ```py
->>> type(exit)
-<class '_sitebuiltins.Quitter'>
+>>> type(license)
+<class '_sitebuiltins._Printer'>
 ```
+
+we can just overwrite the `_Printer__filenames` with `['flag.txt']` to win
+
+```
+>>> license._Printer__filenames = ['flag.txt']
+>>> license()
+flag flag flag flag
+```
+
+so first we can just do a standard module-submodule extension sort of thing with `__main__.__main__` and `__main__.__builtins__` because the dunder builtins object is a dict (we can use build to do arb setattr with that)
+
+then, once we have `license`, we can just overwrite the attribute `_Printer__filenames` with `['flag.txt']`. then, we can call print on license by overwriting `self.append` and using the GET opcode
+
+too lazy to make a poc but it works, trust
