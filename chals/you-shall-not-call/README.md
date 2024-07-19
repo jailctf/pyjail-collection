@@ -46,6 +46,15 @@ data = io.BytesIO(bytes.fromhex(input('$ ')))
 SecureUnpickler(data).load()
 ```
 
-## solution (intended)
+## intended solution
 
 see [you-shall-not-call-revenge](../you-shall-not-call-revenge)
+
+## unintended solution
+
+we can abuse the fact that there is a file named `flag.txt` in a known location and it just requires a file read. although `help` was blocked, we can abuse `exit` because it is a `_Printer` object or something like that
+
+```py
+>>> type(exit)
+<class '_sitebuiltins.Quitter'>
+```
