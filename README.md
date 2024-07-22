@@ -17,7 +17,14 @@ i love pyjails
 |[Nameless Jail](./chals/nameless-jail)|ImaginaryCTF Round 24|use dictionary instead of multiple variables|
 |[\_](./chals/_)|ImaginaryCTF Round 25|use `*` for unpacking a file object|
 |[dont-repeat-yourself](./chals/dont-repeat-yourself)|ImaginaryCTF Round 28|only use each char once|
+|No Comment|ImaginaryCTF Round 32|todo|
 |[decorated](./chals/decorated)|ImaginaryCTF Round 33|use decorators on functions|
+|Breaking in the jail|ImaginaryCTF Round 34|pickle jail, chain builtin modules with dependencies to get to os|
+|Revenge is best served pickled|ImaginaryCTF Round 34|pickle rev if i recall|
+|My Little Jail|ImaginaryCTF Round 35|todo|
+|PyCryptoJail|ImaginaryCTF Round 36|discrete logarithm and nfkc normalization abuse|
+|Exceptional Pyjail|ImaginaryCTF Round 37|todo|
+|Safe Pickle|ImaginaryCTF Round 38|vulnerability in [picklescan](https://github.com/mmaitre314/picklescan)|
 |[pickle-madness](./chals/pickle-madness)|ImaginaryCTF Round 43|bash jail disguised as pickle jail|
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
