@@ -41,3 +41,4 @@ i love pyjails
 |calc|ImaginaryCTF 2024|bypass audit hook with signal|
 |ok-nice|ImaginaryCTF 2024|division by 0 side channel|
 |ASTea|UIUCTF 2024|bypass simple ast thingy|
+|prison|ifCTF 2023 finals|todo|
