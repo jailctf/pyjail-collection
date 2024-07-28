@@ -40,3 +40,4 @@ i love pyjails
 |[llama jail revenge](./chals/llama-jail-revenge)|vsCTF 2024|complicated|
 |calc|ImaginaryCTF 2024|bypass audit hook with signal|
 |ok-nice|ImaginaryCTF 2024|division by 0 side channel|
+|ASTea|UIUCTF 2024|bypass simple ast thingy|
