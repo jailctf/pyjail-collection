@@ -29,6 +29,8 @@ i love pyjails
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
 |Completely new challenge|ImaginaryCTF Round 47|todo|
+|pickle overflow|ImaginaryCTF Round 49|utf8 str encoded can be longer than 2 bytes per char|
+|pygolf 2|ImaginaryCTF Round 49|todo|
 |[You shall not call!](./chals/you-shall-not-call)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite with cheese-ish|
 |[You shall not call Revenge](./chals/you-shall-not-call-revenge)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite|
 |[Get and set](./chals/get-and-set)|ImaginaryCTF 2023|pydash (almost) arbitrary get and set|
@@ -42,3 +44,4 @@ i love pyjails
 |ok-nice|ImaginaryCTF 2024|division by 0 side channel|
 |ASTea|UIUCTF 2024|bypass simple ast thingy|
 |prison|ifCTF 2023 finals|todo|
+|repickle|CyberSpace CTF|abuse bug in pickler|
