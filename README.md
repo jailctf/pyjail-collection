@@ -45,3 +45,25 @@ i love pyjails
 |ASTea|UIUCTF 2024|bypass simple ast thingy|
 |prison|ifCTF 2023 finals|todo|
 |repickle|CyberSpace CTF|abuse bug in pickler|
+|parseltongue|jailCTF 2024|todo|
+|smiley-faiss|jailCTF 2024|todo|
+|parity 1|jailCTF 2024|todo|
+|parity 2|jailCTF 2024|todo|
+|MMM|jailCTF 2024|todo|
+|filter'd|jailCTF 2024|todo|
+|charredcoal|jailCTF 2024|todo|
+|what numbers?|jailCTF 2024|todo|
+|polyglo7quine|jailCTF 2024|todo|
+|what flag?|jailCTF 2024|todo|
+|respy evil challenge|jailCTF 2024|todo|
+|void|jailCTF 2024|todo|
+|respy nice challenge|jailCTF 2024|todo|
+|functional programming|jailCTF 2024|todo|
+|jellyjail|jailCTF 2024|todo|
+|lost in transit|jailCTF 2024|todo|
+|computer-monitor|jailCTF 2024|todo|
+|pickled magic|jailCTF 2024|todo|
+|stupid crypto chall|jailCTF 2024|todo|
+|get and call|jailCTF 2024|todo|
+|no nonsense|jailCTF 2024|todo|
+|last message|jailCTF 2024|todo|
