@@ -67,3 +67,7 @@ i love pyjails
 |get and call|jailCTF 2024|todo|
 |no nonsense|jailCTF 2024|todo|
 |last message|jailCTF 2024|todo|
+|axed|TCP1P CTF 2024|todo|
+|sym|TCP1P CTF 2024|todo|
+|typically not a revenge|TCP1P CTF 2024|jail escape with sys & builtins nuked, major char restrictions|
+|functional|TCP1P CTF 2024|todo|
