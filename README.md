@@ -67,7 +67,7 @@ i love pyjails
 |get and call|jailCTF 2024|todo|
 |no nonsense|jailCTF 2024|todo|
 |last message|jailCTF 2024|todo|
-|axed|TCP1P CTF 2024|todo|
+|axed|TCP1P CTF 2024|python2 `__metaclass__` abuse|
 |sym|TCP1P CTF 2024|todo|
 |typically not a revenge|TCP1P CTF 2024|sys & builtins nuked, `a-zA-Z._[]` allowed|
-|functional|TCP1P CTF 2024|todo|
+|functional|TCP1P CTF 2024|challenge copied from jailctf but with rce|
