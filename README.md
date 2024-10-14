@@ -71,3 +71,6 @@ i love pyjails
 |sym|TCP1P CTF 2024|todo|
 |typically not a revenge|TCP1P CTF 2024|sys & builtins nuked, `a-zA-Z._[]` allowed|
 |functional|TCP1P CTF 2024|challenge copied from jailctf but with rce|
+|RSAjail-1|Blue Water CTF 2024|todo|
+|RSAjail-2|Blue Water CTF 2024|todo|
+|RSAjail-3|Blue Water CTF 2024|todo|
