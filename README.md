@@ -30,7 +30,7 @@ i love pyjails
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
 |Completely new challenge|ImaginaryCTF Round 47|todo|
 |[pickle overflow](./chals/pickle-overflow)|ImaginaryCTF Round 49|utf8 str encoded can be longer than 2 bytes per char|
-|[pygolf 2](./chals/pygolf-2)|ImaginaryCTF Round 49|todo|
+|[pygolf 2](./chals/pygolf-2)|ImaginaryCTF Round 49|use only 25 "non-space" chars and no jail essentials also|
 |[You shall not call!](./chals/you-shall-not-call)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite with cheese-ish|
 |[You shall not call Revenge](./chals/you-shall-not-call-revenge)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite|
 |[Get and set](./chals/get-and-set)|ImaginaryCTF 2023|pydash (almost) arbitrary get and set|
