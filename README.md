@@ -77,4 +77,6 @@ i love pyjails
 |RSAjail-2|Blue Water CTF 2024|todo|
 |RSAjail-3|Blue Water CTF 2024|todo|
 |Prison Reform|diceCTF 2023|match case for arb getattr|
-|unipickle|diceCTF 2024|pickle with utf8 valid bytes|
+|unipickle|diceCTF quals 2024|pickle with utf8 valid bytes|
+|diligent-auditor|diceCTF quals 2024|overwrite audit hook stuff with ctypes|
+|IRS|diceCTF quals 2024|bypass c audit hook with pwn|
