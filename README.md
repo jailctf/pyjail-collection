@@ -80,3 +80,4 @@ i love pyjails
 |unipickle|diceCTF quals 2024|pickle with utf8 valid bytes|
 |diligent-auditor|diceCTF quals 2024|overwrite audit hook stuff with ctypes|
 |IRS|diceCTF quals 2024|bypass c audit hook with pwn|
+|1linepyjail|SECCON quals 2024|use help to import anything for subclasses usage|
