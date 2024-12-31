@@ -24,7 +24,7 @@ i love pyjails
 |My Little Jail|ImaginaryCTF Round 35|todo|
 |PyCryptoJail|ImaginaryCTF Round 36|discrete logarithm and nfkc normalization abuse|
 |Exceptional Pyjail|ImaginaryCTF Round 37|todo|
-|Safe Pickle|ImaginaryCTF Round 38|vulnerability in [picklescan](https://github.com/mmaitre314/picklescan)|
+|[Safe Pickle](./chals/safe-pickle)|ImaginaryCTF Round 38|vulnerability-ish in [picklescan](https://github.com/mmaitre314/picklescan)|
 |[pickle-madness](./chals/pickle-madness)|ImaginaryCTF Round 43|bash jail disguised as pickle jail|
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
