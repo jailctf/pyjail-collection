@@ -19,7 +19,7 @@ i love pyjails
 |[dont-repeat-yourself](./chals/dont-repeat-yourself)|ImaginaryCTF Round 28|only use each char once|
 |No Comment|ImaginaryCTF Round 32|todo|
 |[decorated](./chals/decorated)|ImaginaryCTF Round 33|use decorators on functions|
-|Breaking in the jail|ImaginaryCTF Round 34|pickle jail, chain builtin modules with dependencies to get to os|
+|[Breaking in the jail](./chals/breaking-in-the-jail)|ImaginaryCTF Round 34|pickle jail, chain pickle modules with some dependencies to eventually get to os|
 |Revenge is best served pickled|ImaginaryCTF Round 34|pickle rev if i recall|
 |My Little Jail|ImaginaryCTF Round 35|todo|
 |PyCryptoJail|ImaginaryCTF Round 36|discrete logarithm and nfkc normalization abuse|
