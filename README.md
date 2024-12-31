@@ -4,6 +4,12 @@
 
 i love pyjails
 
+## todo ctfs
+
+make github issue if a ctf has some good pyjails and they should be added here
+
+- amateurs ctf, 2023 and 2024
+
 ## pyjails
 
 |title|source|description/tldr|
