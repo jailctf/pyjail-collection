@@ -17,22 +17,22 @@ i love pyjails
 |[Nameless Jail](./chals/nameless-jail)|ImaginaryCTF Round 24|use dictionary instead of multiple variables|
 |[\_](./chals/_)|ImaginaryCTF Round 25|use `*` for unpacking a file object|
 |[dont-repeat-yourself](./chals/dont-repeat-yourself)|ImaginaryCTF Round 28|only use each char once|
-|No Comment|ImaginaryCTF Round 32|todo|
+|[No Comment](./chals/no-comment)|ImaginaryCTF Round 32|abuse `\r` in input function|
 |[decorated](./chals/decorated)|ImaginaryCTF Round 33|use decorators on functions|
 |[Breaking in the jail](./chals/breaking-in-the-jail)|ImaginaryCTF Round 34|pickle jail, chain pickle modules with some dependencies to eventually get to os|
-|Revenge is best served pickled|ImaginaryCTF Round 34|pickle rev if i recall|
-|My Little Jail|ImaginaryCTF Round 35|todo|
-|PyCryptoJail|ImaginaryCTF Round 36|discrete logarithm and nfkc normalization abuse|
+|Revenge is best served pickled|ImaginaryCTF Round 34|todo|
+|[My Little Jail](./chals/my-little-jail)|ImaginaryCTF Round 35|overwrite global `any` with `all` to bypass blocklist|
+|[PyCryptoJail](./chals/pycryptojail)|ImaginaryCTF Round 36|discrete logarithm and nfkc normalization abuse|
 |Exceptional Pyjail|ImaginaryCTF Round 37|todo|
 |[Safe Pickle](./chals/safe-pickle)|ImaginaryCTF Round 38|vulnerability-ish in [picklescan](https://github.com/mmaitre314/picklescan)|
 |[pickle-madness](./chals/pickle-madness)|ImaginaryCTF Round 43|bash jail disguised as pickle jail|
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
-|Completely new challenge|ImaginaryCTF Round 47|todo|
 |[pickle overflow](./chals/pickle-overflow)|ImaginaryCTF Round 49|utf8 str encoded can be longer than 2 bytes per char|
 |[pygolf 2](./chals/pygolf-2)|ImaginaryCTF Round 49|use only 25 "non-space" chars and no jail essentials also|
-|cipherjail|ImaginaryCTF Round 50|todo|
-|cipherjail2|ImaginaryCTF Round 50|todo|
+|cipherjail|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail, todo|
+|cipherjail2|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail 2, todo|
+|Completely new challenge|ImaginaryCTF Round 50|golf a generator frame escape with no dunders, todo|
 |[You shall not call!](./chals/you-shall-not-call)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite with cheese-ish|
 |[You shall not call Revenge](./chals/you-shall-not-call-revenge)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite|
 |[Get and set](./chals/get-and-set)|ImaginaryCTF 2023|pydash (almost) arbitrary get and set|
