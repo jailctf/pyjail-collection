@@ -10,7 +10,7 @@ i love pyjails
 |-|-|-|
 |[minijail](./chals/minijail)|ImaginaryCTF Round 9|eval with only the print builtin in 37 bytes|
 |[tax evasion](./chals/tax-evasion)|ImaginaryCTF Round 11|python audit hook function overwrite|
-|how r u|ImaginaryCTF Round 12|todo|
+|[how r u](./chals/how-r-u)|ImaginaryCTF Round 12|python2.7 non-raw input is dangerous asf|
 |[Fickle Pickles](./chals/fickle-pickles)|ImaginaryCTF Round 13|weird pickle challenge|
 |[prison](./chals/prison)|ImaginaryCTF Round 18|standard no builtins escape but with blacklist|
 |[Stackless Jail](./chals/stackless-jail)|ImaginaryCTF Round 23|read sys environ with only stack size 1 from dis.code\_info|
