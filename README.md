@@ -91,3 +91,5 @@ make github issue if a ctf has some good pyjails and they should be added here
 |Don't Sandbox Python 1|UofTCTF 2025|use numpy module attributes to get to dangerous stuffs|
 |Don't Sandbox Python 2|UofTCTF 2025|todo (it is a 0day)|
 |Don't Sandbox Python 3|UofTCTF 2025|todo (it is a 0day)|
+|SSPJ|Srdnlen CTF 2025|`.lower()` filter bypass and `__getattr__` module attr overwrite with import|
+|Another Impossible Escape|Srdnlen CTF 2025|func default dict abuse and use of `gc` module to recover deleted flag|
