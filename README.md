@@ -9,6 +9,7 @@ i love pyjails
 make github issue if a ctf has some good pyjails and they should be added here
 
 - amateurs ctf, 2023 and 2024
+- hitcon ctf 2022
 
 ## pyjails
 
