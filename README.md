@@ -40,7 +40,9 @@ make github issue if a ctf has some good pyjails and they should be added here
 |cipherjail|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail, todo|
 |cipherjail2|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail 2, todo|
 |Completely new challenge|ImaginaryCTF Round 50|golf a generator frame escape with no dunders, todo|
-|modjail|ImaginaryCTF Round 53|todo|
+|modjail|ImaginaryCTF Round 53|abuse `#` padding with slightly shifted input of bytes_to_long, todo|
+|modjail2|ImaginaryCTF Round 53|only ascii input, use LLL, todo|
+|modjail3|ImaginaryCTF Round 53|weird numbers repr constraint, use LLL again, todo|
 |[You shall not call!](./chals/you-shall-not-call)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite with cheese-ish|
 |[You shall not call Revenge](./chals/you-shall-not-call-revenge)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite|
 |[Get and set](./chals/get-and-set)|ImaginaryCTF 2023|pydash (almost) arbitrary get and set|
