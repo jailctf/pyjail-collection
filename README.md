@@ -56,7 +56,7 @@ make github issue if a ctf has some good pyjails and they should be added here
 |ok-nice|ImaginaryCTF 2024|division by 0 side channel|
 |ASTea|UIUCTF 2024|bypass simple ast thingy|
 |prison|ifCTF 2023 finals|todo|
-|repickle|CyberSpace CTF|abuse bug in pickler|
+|[repickle](./chals/repickle)|CyberSpace CTF 2024|abuse bug in pickler|
 |parseltongue|jailCTF 2024|todo|
 |smiley-faiss|jailCTF 2024|todo|
 |parity 1|jailCTF 2024|todo|
