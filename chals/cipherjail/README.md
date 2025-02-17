@@ -4,7 +4,7 @@
 
 "You've been cipherjailed, but the guard is nice and will let you say short words, including contractions."
 
-```
+```py
 #!/usr/local/bin/python3
 from secrets import choice
 
