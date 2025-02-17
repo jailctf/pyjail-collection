@@ -4,7 +4,7 @@ i was hoping that only a few teams would figure out how to solve it and only a f
 
 ## challenge
 
-```
+```py
 import io
 from pickle import *
 from functools import partial
@@ -45,7 +45,7 @@ for full handout (required for solve), see [handout_repickle.zip](./handout_repi
 
 intended (by me)
 
-```
+```py
 from pickle import *
 
 # ====== p2 is the arbitrary code execution on the less restricted pickler ======
