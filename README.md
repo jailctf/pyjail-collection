@@ -37,8 +37,8 @@ make github issue if a ctf has some good pyjails and they should be added here
 |[pygolf](./chals/pygolf)|ImaginaryCTF Round 44|NFKC normalization op|
 |[pickle overflow](./chals/pickle-overflow)|ImaginaryCTF Round 49|utf8 str encoded can be longer than 2 bytes per char|
 |[pygolf 2](./chals/pygolf-2)|ImaginaryCTF Round 49|use only 25 "non-space" chars and no jail essentials also|
-|[cipherjail](./chals/cipherjail)|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail, todo|
-|[cipherjail2](./chals/cipherjail2)|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail 2, todo|
+|[cipherjail](./chals/cipherjail)|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail|
+|[cipherjail2](./chals/cipherjail2)|ImaginaryCTF Round 50|monoalphabetic substitution cipher pyjail 2|
 |Completely new challenge|ImaginaryCTF Round 50|golf a generator frame escape with no dunders, todo|
 |modjail|ImaginaryCTF Round 53|abuse `#` padding with slightly shifted input of bytes_to_long, todo|
 |modjail2|ImaginaryCTF Round 53|only ascii input, use LLL, todo|
