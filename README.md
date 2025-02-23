@@ -9,7 +9,6 @@ i love pyjails
 make github issue if a ctf has some good pyjails and they should be added here
 
 - amateurs ctf, 2023 and 2024
-- hitcon ctf 2022
 
 ## pyjails
 
@@ -99,3 +98,5 @@ make github issue if a ctf has some good pyjails and they should be added here
 |Another Impossible Escape|Srdnlen CTF 2025|func default dict abuse and use of `gc` module to recover deleted flag|
 |snecko's lair|LACTF 2025|overwrite `__code__` bytecode of `evaluate_value` of 3.14+ TypeAliasType|
 |farquaad|LACTF 2025|no `E` or `e`|
+|Picklection|HITCON CTF 2022|get `eval` in plain sight in collections module using pickle|
+|V O I D|HITCON CTF 2022|bytecode overwrite oob stuff (?)|
