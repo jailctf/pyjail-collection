@@ -52,7 +52,7 @@ make github issue if a ctf has some good pyjails and they should be added here
 |[Just Another Pickle Jail](./chals/just-another-pickle-jail)|Sekai CTF 2023|todo|
 |[introspection](./chals/introspection)|angstromCTF 2024|find discrepancies between pickle c impl and python impl (python2)|
 |[llama jail](./chals/llama-jail)|vsCTF 2024|bypass ast visitor when ast.iter_child_nodes|
-|[llama jail revenge](./chals/llama-jail-revenge)|vsCTF 2024|complicated|
+|[llama jail revenge](./chals/llama-jail-revenge)|vsCTF 2024|attributeerror obj trick|
 |calc|ImaginaryCTF 2024|bypass audit hook with signal|
 |ok-nice|ImaginaryCTF 2024|division by 0 side channel|
 |ASTea|UIUCTF 2024|bypass simple ast thingy|
