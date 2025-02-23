@@ -59,7 +59,7 @@ make github issue if a ctf has some good pyjails and they should be added here
 |prison|ifCTF 2023 finals|todo|
 |[repickle](./chals/repickle)|CyberSpace CTF 2024|abuse bug in pickler|
 |parseltongue|jailCTF 2024|todo|
-|smiley-faiss|jailCTF 2024|todo|
+|[smiley-faiss](./chals/smiley-faiss)|jailCTF 2024|build opcode abuse|
 |parity 1|jailCTF 2024|todo|
 |parity 2|jailCTF 2024|todo|
 |MMM|jailCTF 2024|todo|
