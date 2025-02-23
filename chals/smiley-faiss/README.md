@@ -4,7 +4,7 @@ i am happy with how this challenge turned out because of the theming
 
 ## challenge
 
-```
+```py
 #!/usr/local/bin/python3
 # slightly modified. original at https://github.com/facebookresearch/faiss/blob/main/contrib/rpc.py
 import pickle
@@ -43,7 +43,7 @@ ok basically one trick is that if you have getattr but not _getattribute (with "
 
 by that i mean:
 
-```
+```py
 class Dummy: pass
 
 outer = Dummy()
@@ -68,7 +68,7 @@ there is also an unintended apparently that you can just build once and then it 
 
 (i forgot to ban arb getattr on the outer so you can just build `outer.__builtins__` onto `outer` and then get `outer.breakpoint` lol)
 
-```
+```py
 pkl = ( 
         GLOBAL + b"numpy\nsafernumpy\n" +
         MARK + 
