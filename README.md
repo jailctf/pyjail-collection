@@ -29,7 +29,7 @@ make github issue if a ctf has some good pyjails and they should be added here
 |Revenge is best served pickled|ImaginaryCTF Round 34|todo|
 |[My Little Jail](./chals/my-little-jail)|ImaginaryCTF Round 35|overwrite global `any` with `all` to bypass blocklist|
 |[PyCryptoJail](./chals/pycryptojail)|ImaginaryCTF Round 36|discrete logarithm and nfkc normalization abuse|
-|Exceptional Pyjail|ImaginaryCTF Round 37|todo|
+|[Exceptional Pyjail](./chals/exceptional-pyjail)|ImaginaryCTF Round 37|use stderr instead of stdout|
 |[Safe Pickle](./chals/safe-pickle)|ImaginaryCTF Round 38|vulnerability-ish in [picklescan](https://github.com/mmaitre314/picklescan)|
 |[pickle-madness](./chals/pickle-madness)|ImaginaryCTF Round 43|bash jail disguised as pickle jail|
 |[Low Security Jail](./chals/low-security-jail)|ImaginaryCTF Round 44|eval blacklist overwrite|
