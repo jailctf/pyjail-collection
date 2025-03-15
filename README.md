@@ -14,6 +14,8 @@ make github issue if a ctf has some good pyjails and they should be added here
 
 |title|source|description/tldr|
 |-|-|-|
+|Picklection|HITCON CTF 2022|get `eval` in plain sight in collections module using pickle|
+|V O I D|HITCON CTF 2022|bytecode overwrite oob stuff (?)|
 |[minijail](./chals/minijail)|ImaginaryCTF Round 9|eval with only the print builtin in 37 bytes|
 |[tax evasion](./chals/tax-evasion)|ImaginaryCTF Round 11|python audit hook function overwrite|
 |[how r u](./chals/how-r-u)|ImaginaryCTF Round 12|python2.7 non-raw input is dangerous asf|
@@ -94,9 +96,8 @@ make github issue if a ctf has some good pyjails and they should be added here
 |Don't Sandbox Python 1|UofTCTF 2025|use numpy module attributes to get to dangerous stuffs|
 |Don't Sandbox Python 2|UofTCTF 2025|todo (it is a 0day)|
 |Don't Sandbox Python 3|UofTCTF 2025|todo (it is a 0day)|
+|Paper Viper|KalmarCTF 2025|follow up to "Dont't Sandbox Python" series in UofTCTF, abusing numpy `genfromtxt`|
 |SSPJ|Srdnlen CTF 2025|`.lower()` filter bypass and `__getattr__` module attr overwrite with import|
 |Another Impossible Escape|Srdnlen CTF 2025|func default dict abuse and use of `gc` module to recover deleted flag|
 |snecko's lair|LACTF 2025|overwrite `__code__` bytecode of `evaluate_value` of 3.14+ TypeAliasType|
 |farquaad|LACTF 2025|no `E` or `e`|
-|Picklection|HITCON CTF 2022|get `eval` in plain sight in collections module using pickle|
-|V O I D|HITCON CTF 2022|bytecode overwrite oob stuff (?)|
