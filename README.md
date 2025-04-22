@@ -101,3 +101,9 @@ make github issue if a ctf has some good pyjails and they should be added here
 |Another Impossible Escape|Srdnlen CTF 2025|func default dict abuse and use of `gc` module to recover deleted flag|
 |snecko's lair|LACTF 2025|overwrite `__code__` bytecode of `evaluate_value` of 3.14+ TypeAliasType|
 |farquaad|LACTF 2025|no `E` or `e`|
+|vibe-coding|b01lers CTF 2025|todo|
+|shakespearejail|b01lers CTF 2025|todo|
+|/>>=jail|b01lers CTF 2025|todo|
+|prismatic|b01lers CTF 2025|todo|
+|emacs-jail|b01lers CTF 2025|todo|
+|monochromatic|b01lers CTF 2025|todo|
