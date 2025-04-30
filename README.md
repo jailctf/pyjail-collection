@@ -107,3 +107,4 @@ make github issue if a ctf has some good pyjails and they should be added here
 |prismatic|b01lers CTF 2025|todo|
 |emacs-jail|b01lers CTF 2025|todo|
 |monochromatic|b01lers CTF 2025|todo|
+|evaldle|UMDCTF 2025|todo|
