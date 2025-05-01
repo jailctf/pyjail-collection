@@ -45,6 +45,8 @@ make github issue if a ctf has some good pyjails and they should be added here
 |modjail2|ImaginaryCTF Round 53|only ascii input, use LLL, todo|
 |modjail3|ImaginaryCTF Round 53|weird numbers repr constraint, use LLL again, todo|
 |electronic jail|ImaginaryCTF Round 54|4x email parsing inject a payload|
+|another gambling jail|ImaginaryCTF Round 56|todo|
+|pygolf4|ImaginaryCTF Round 56|fuzz a leak of `v` through stderr, sol `v(*1)`|
 |[You shall not call!](./chals/you-shall-not-call)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite with cheese-ish|
 |[You shall not call Revenge](./chals/you-shall-not-call-revenge)|ImaginaryCTF 2023|BUILD opcode abuse into unpickler attr overwrite|
 |[Get and set](./chals/get-and-set)|ImaginaryCTF 2023|pydash (almost) arbitrary get and set|
