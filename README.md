@@ -95,6 +95,7 @@ make github issue if a ctf has some good pyjails and they should be added here
 |unipickle|diceCTF quals 2024|pickle with utf8 valid bytes|
 |diligent-auditor|diceCTF quals 2024|overwrite audit hook stuff with ctypes|
 |IRS|diceCTF quals 2024|bypass c audit hook with pwn|
+|gentleman|BuckeyeCTF 2024|novel technique with `inp.format()` + arb file write causes rce through ctypes cdll getitem|
 |1linepyjail|SECCON quals 2024|use help to import anything for subclasses usage|
 |Don't Sandbox Python 1|UofTCTF 2025|use numpy module attributes to get to dangerous stuffs|
 |Don't Sandbox Python 2|UofTCTF 2025|todo (it is a 0day)|
