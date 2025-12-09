@@ -112,3 +112,4 @@ make github issue if a ctf has some good pyjails and they should be added here
 |emacs-jail|b01lers CTF 2025|todo|
 |monochromatic|b01lers CTF 2025|todo|
 |evaldle|UMDCTF 2025|todo|
+|Comments Only|UIUCTF 2025|python3 detecting file as zip and running it (zipimporter) abuse|
